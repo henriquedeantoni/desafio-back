@@ -50,15 +50,15 @@ Separadas algumas telas de desenvolvimento do Back end com algumas ferramentas (
   <br>
   <p style="font-size: 20px;">Tela de Insomnia (Envio mensagens)<p>
   <br>
-  ![Tela_2](https://github.com/henriquedeantoni/desafio-back/assets/147777120/bab070bf-98af-485d-9944-ded1d0c3d533)
+  (https://github.com/henriquedeantoni/desafio-back/assets/147777120/bab070bf-98af-485d-9944-ded1d0c3d533)
   <br>
   <p style="font-size: 20px;">Tela de Insomnia método GET para receber todas as mensagens</p>
   <br>
-  ![Tela_3](https://github.com/henriquedeantoni/desafio-back/assets/147777120/e389b9c2-480d-4fb8-ab92-5edf16f5568f)
+  (https://github.com/henriquedeantoni/desafio-back/assets/147777120/e389b9c2-480d-4fb8-ab92-5edf16f5568f)
   <br>
   <p style="font-size: 20px;">Postbird</p> 
   <br>
-  ![Tela_4](https://github.com/henriquedeantoni/desafio-back/assets/147777120/b24dd6be-45d0-4887-8796-68ef5e3d65b3)
+  (https://github.com/henriquedeantoni/desafio-back/assets/147777120/b24dd6be-45d0-4887-8796-68ef5e3d65b3)
   <br>
   <p style="font-size: 20px;">Docker e a imagem do BD ( secure-chat)</p>
   <br>
