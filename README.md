@@ -1,13 +1,13 @@
 # Desafio Técnico - Parte Back End - Tela Segura
 
 
-Este repositório contém a implementação do Back End para um desafio técnico. O escopo do projeto envolve a criação de uma aplicação com uma tela segura acessível por no máximo uma pessoa.
-Quando um usuário esta acessando a tela segura, a mesma tela fica bloqueada para os demais usuários.
-Por ser a parte voltada para o servidor o foco deste repositório é a lógica do funcionamento e controle de acessos e tambem a comunicação com o banco de dados.
-Para o controle de acesso da tela segura, monitoramento de usuários por pagina foi utilizado SocketIO e Node.js
-Na parte de cadastro de usuário acesso login e salvamento de mensagens foi trabalhada com arquitetura MVC (Model, view e controller)
-Na parte de ORM foi utilizado o sequelize e para o banco de dados usou-se o Postgres.
-Com o auxilio do Docker e Postbird foi partimentado um BD e feito todo o desenvolvimento.
+Este repositório contém a implementação do Back End para um desafio técnico. O escopo do projeto envolve a criação de uma aplicação com uma tela segura acessível por no máximo uma pessoa. <br>
+Quando um usuário esta acessando a tela segura, a mesma tela fica bloqueada para os demais usuários. <br>
+Por ser a parte voltada para o servidor o foco deste repositório é a lógica do funcionamento e controle de acessos e tambem a comunicação com o banco de dados. <br>
+Para o controle de acesso da tela segura, monitoramento de usuários por pagina foi utilizado SocketIO e Node.js. <br>
+Na parte de cadastro de usuário acesso login e salvamento de mensagens foi trabalhada com arquitetura MVC (Model, view e controller). <br>
+Na parte de ORM foi utilizado o sequelize e para o banco de dados usou-se o Postgres. <br>
+Com o auxilio do Docker e Postbird foi partimentado um BD e feito todo o desenvolvimento. <br>
 
 https://github.com/henriquedeantoni/desafio-front/assets/147777120/579b796f-b750-4744-a63c-7b2443154285
 
