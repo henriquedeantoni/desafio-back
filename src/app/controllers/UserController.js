@@ -38,7 +38,7 @@ class UserController {
       });
       return response.status(201).json({ id: user.id, name, username });
     } catch (error) {
-      console.error("Error creating user:", error); // Log detalhado do erro
+      console.error("Error creating user:", error); 
       return response.status(500).json({ error: 'Internal server error, unable to create user.' });
     }
   }
