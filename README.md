@@ -32,8 +32,8 @@ Com o auxilio do Docker e Postbird foi partimentado um BD e feito todo o desenvo
 1.  Certifique-se de ter o Node.js instalado em sua máquina.
 2.  Clone este repositório: `git clone https://github.com/seu-usuario/nome-do-repositorio.git`
 3.  Navegue até o diretório do projeto: `cd nome-do-repositorio`
-4.  Instale as dependências do projeto: `npm install`
-5.  Configure as variáveis de ambiente no arquivo `.env`.
+4.  Instale as dependências do projeto: `npm init -y`
+5.  
 6.  Inicie o servidor: `yarn dev`
 7.  O servidor estará disponível em `http://localhost:3001`.
 
