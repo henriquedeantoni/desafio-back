@@ -2,11 +2,11 @@
 
 
 Este repositório contém a implementação do Back End para um desafio técnico. O escopo do projeto envolve a criação de uma aplicação com uma tela segura acessível por no máximo uma pessoa.
-Quando uma pessoa esta acessando a tela segura ela fica bloqueada para os demais usuários.
-Por ser a parte voltada para o servidor o foco deste repositório é a lógica do funcionamento e controle de acessos.
-Para o controle de acesso da tela segura, monitoramento de usuários por pagina foi utilizada com websocket, mais precisamente com atecnologia SocketIO e Node.js
-Na parte de cadastro de usuário acesso login e salvamento de mensagens foi trabalhada com MVC (Model, view e controller)
-Na parte de ORM foi utilizado o sequelize e o banco de dados usou-se o Postgres.
+Quando um usuário esta acessando a tela segura, a mesma tela fica bloqueada para os demais usuários.
+Por ser a parte voltada para o servidor o foco deste repositório é a lógica do funcionamento e controle de acessos e tambem a comunicação com o banco de dados.
+Para o controle de acesso da tela segura, monitoramento de usuários por pagina foi utilizado SocketIO e Node.js
+Na parte de cadastro de usuário acesso login e salvamento de mensagens foi trabalhada com arquitetura MVC (Model, view e controller)
+Na parte de ORM foi utilizado o sequelize e para o banco de dados usou-se o Postgres.
 Com o auxilio do Docker e Postbird foi partimentado um BD e feito todo o desenvolvimento.
 
 Desafio Técnico - Parte Back End
