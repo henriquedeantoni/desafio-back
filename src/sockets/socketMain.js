@@ -5,7 +5,7 @@ const { Server } = require("socket.io");
 const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
-  path: "/main/socket.io" // Aqui está o caminho correto
+  path: "/main/socket.io" 
 });
 // Array para armazenar os usuários ativos
 let activeUsers = new Set();
@@ -27,7 +27,7 @@ io.on('connection', (socket) => {
         io.emit('updateActiveUsers', Array.from(activeUsers));
     });
 
-    // Captura o evento de desconexão
+    
     socket.on('disconnect', () => {
         console.log('Usuário desconectado:', socket.id);
         // Obtém o username do usuário desconectado usando o mapeamento socket.id -> username
