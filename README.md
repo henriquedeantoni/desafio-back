@@ -34,7 +34,7 @@ Com o auxilio do Docker e Postbird foi partimentado um BD e feito todo o desenvo
 3.  Navegue até o diretório do projeto: `cd nome-do-repositorio`
 4.  Instale as dependências do projeto: `npm install`
 5.  Configure as variáveis de ambiente no arquivo `.env`.
-6.  Inicie o servidor: `npm start`
+6.  Inicie o servidor: `yarn dev`
 7.  O servidor estará disponível em `http://localhost:3001`.
 
 
