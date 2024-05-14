@@ -42,33 +42,27 @@ Com o auxilio do Docker e Postbird foi partimentado um BD e feito todo o desenvo
 
 
 
-## Telas
+## Imagens Desenvolvimento
 
-A aplicação é formada por 4 telas: Cadastro, Login, Main e Tela-segura. Esta ultima pode ficar sem acesso quando tem 1 usuário acessando.
-
-  ![tela_1](https://github.com/henriquedeantoni/desafio-front/assets/147777120/b64f2fd2-3959-4972-a803-3853849ec2ce)
+Separadas algumas telas de desenvolvimento do Back end com algumas ferramentas (Insomnia, Docker e Postbird)
   <br>
-  <p style="font-size: 20px;">Tela de Cadastro<p>
+  ![Tela_1](https://github.com/henriquedeantoni/desafio-back/assets/147777120/be1fcb30-2255-4626-9fb3-6ec2dde668aa)
   <br>
-  (https://github.com/henriquedeantoni/desafio-front/assets/147777120/3a1f7fbe-7b2f-4a0c-85d0-5e9b1e75ffc6)
+  <p style="font-size: 20px;">Tela de Insomnia (Envio mensagens)<p>
   <br>
-  <p style="font-size: 20px;">Tela de Login</p>
+  ![Tela_2](https://github.com/henriquedeantoni/desafio-back/assets/147777120/bab070bf-98af-485d-9944-ded1d0c3d533)
   <br>
-  (https://github.com/henriquedeantoni/desafio-front/assets/147777120/9e1e41d8-1f0b-41fe-9f2a-969492b5b731)
+  <p style="font-size: 20px;">Tela de Insomnia método GET para receber todas as mensagens</p>
   <br>
-  <p style="font-size: 20px;">Tela Principal</p> 
-  (1) - Lista de usuários presentes na tela <br>
-  (2) - Ultimas mensagens <br>
-  (3) - Botão para tela segura <br>
+  ![Tela_3](https://github.com/henriquedeantoni/desafio-back/assets/147777120/e389b9c2-480d-4fb8-ab92-5edf16f5568f)
   <br>
-  (https://github.com/henriquedeantoni/desafio-front/assets/147777120/ccb92097-16b1-409c-b94f-120619f47930)
+  <p style="font-size: 20px;">Postbird</p> 
   <br>
-  <p style="font-size: 20px;">Tela Segura</p>
+  ![Tela_4](https://github.com/henriquedeantoni/desafio-back/assets/147777120/b24dd6be-45d0-4887-8796-68ef5e3d65b3)
   <br>
-  (https://github.com/henriquedeantoni/desafio-front/assets/147777120/e684add4-e33f-4cc0-8d78-06a50b729ed9)
+  <p style="font-size: 20px;">Docker e a imagem do BD ( secure-chat)</p>
   <br>
-  <p style="font-size: 20px;">Tela Segura (Bloqueada)</p>
-
+  
 
 
 
