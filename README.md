@@ -32,13 +32,24 @@ Com o auxilio do Docker e Postbird foi partimentado um BD e feito todo o desenvo
 1.  Certifique-se de ter o Node.js instalado em sua máquina.
 2.  Clone este repositório: `git clone https://github.com/seu-usuario/nome-do-repositorio.git`
 3.  Navegue até o diretório do projeto: `cd nome-do-repositorio`
-4.  Instale as dependências do projeto: `npm init -y`
-5.  
-6.  Inicie o servidor: `yarn dev`
-7.  O servidor estará disponível em `http://localhost:3001`.
-
-
-
+4.  Inicialize o projeto npm: `npm init -y`
+5.  Instale o Yarn globalmente: `npm install -g yarn`
+6.  Adicione o framework Express: `yarn add express`
+7.  Adicione o Nodemon como dependência de desenvolvimento: `yarn add nodemon -D`
+8.  Adicione o Sucrase como dependência de desenvolvimento: `yarn add sucrase`
+9.  Execute o servidor com Sucrase: `yarn sucrase-node src/server.js`
+10. Adicione o Sequelize: `yarn add sequelize`
+11. Adicione o Sequelize CLI como dependência de desenvolvimento: `yarn add sequelize-cli -D`
+12. Adicione o PostgreSQL e o PG Hstore: `yarn add pg pg-hstore`
+13. Crie a migração para a tabela de usuários: `yarn sequelize migration:create --name=create-users`
+14. Crie a migração para a tabela de mensagens: `yarn sequelize migration:create --name=create-messages`
+15. Execute as migrações para criar as tabelas no banco de dados: `yarn sequelize db:migrate`
+16. Adicione a biblioteca UUID: `yarn add uuid`
+17. Adicione a biblioteca Yup para validação de esquemas: `yarn add yup`
+18. Adicione o middleware CORS: `yarn add cors`
+19. Adicione o Socket.IO: `yarn add socket.io`
+20.  Inicie o servidor: `yarn dev`
+21.  O servidor estará disponível em `http://localhost:3001`.
 
 
 
