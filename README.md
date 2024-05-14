@@ -9,6 +9,7 @@ Na parte de cadastro de usuário acesso login e salvamento de mensagens foi trab
 Na parte de ORM foi utilizado o sequelize e para o banco de dados usou-se o Postgres.
 Com o auxilio do Docker e Postbird foi partimentado um BD e feito todo o desenvolvimento.
 
+https://github.com/henriquedeantoni/desafio-front/assets/147777120/579b796f-b750-4744-a63c-7b2443154285
 
 ### Tecnologias Utilizadas
 
