@@ -1,4 +1,4 @@
-# Tela Segura
+# Desafio Técnico - Parte Back End - Tela Segura
 
 
 Este repositório contém a implementação do Back End para um desafio técnico. O escopo do projeto envolve a criação de uma aplicação com uma tela segura acessível por no máximo uma pessoa.
@@ -9,10 +9,6 @@ Na parte de cadastro de usuário acesso login e salvamento de mensagens foi trab
 Na parte de ORM foi utilizado o sequelize e para o banco de dados usou-se o Postgres.
 Com o auxilio do Docker e Postbird foi partimentado um BD e feito todo o desenvolvimento.
 
-Desafio Técnico - Parte Back End
---------------------------------
-
-Este repositório contém a implementação do Back End para um desafio técnico. O escopo do projeto envolve a criação de uma aplicação com uma tela segura acessível por no máximo uma pessoa.
 
 ### Tecnologias Utilizadas
 
