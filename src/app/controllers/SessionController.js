@@ -11,7 +11,7 @@ class SessionController {
     const userUsernameOrPasswordIncorrect = () => {
       return response
         .status(400)
-        .json({ error: 'Senha ou Username incorretos' })
+        .json({ error: 'username or password incorrect' })
     }
     if (!(await schema.isValid(request.body))) {
       userUsernameOrPasswordIncorrect()
@@ -25,6 +25,10 @@ class SessionController {
 
     if (!user) {
       return  userUsernameOrPasswordIncorrect()
+    }
+
+    if (!(await user.checkPassword(password))) {
+      userEmailOrPasswordIncorrect()
     }
 
     if (user.password !== password) {

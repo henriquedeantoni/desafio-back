@@ -13,14 +13,13 @@ class UserController {
 
     try {
       await schema.validateSync(request.body, { abortEarly: false })
-      console.log("Validated data:", request.body)
     } catch (err) {
       return response.status(400).json({ error: err.errors })
     }
 
     const { name, username, password } = request.body
 
-    console.log("Creating user with:", name, username, password); 
+    console.log("Creating user "); 
 
     const userExists = await User.findOne({
       where: { username },
@@ -36,7 +35,7 @@ class UserController {
         username,
         password,
       });
-      return response.status(201).json({ id: user.id, name, username });
+      return response.status(201).json(user);
     } catch (error) {
       console.error("Error creating user:", error); 
       return response.status(500).json({ error: 'Internal server error, unable to create user.' });
