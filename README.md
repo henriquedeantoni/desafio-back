@@ -51,6 +51,7 @@ https://github.com/henriquedeantoni/desafio-front/assets/147777120/579b796f-b750
 19. Adicione o Socket.IO: `yarn add socket.io`
 20.  Inicie o servidor: `yarn dev`
 21. Instalar o JWT: `yarn add jwt`
+22. Instalar o bcrypt: `yarn add bcrypt`
 22.  O servidor estará disponível em `http://localhost:3001`.
 
 
